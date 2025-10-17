@@ -66,7 +66,9 @@ https://github.com/alanwillms/geoinfo/blob/master/latitude-longitude-cidades.csv
 
 ## Autores
 **Aluno:** João Vitor Campõe Galescky
+
 **Orientador:** Darlon Vasata
+
 **Co-orientador:** Edmar André Bellorini
 
 # Instituição
