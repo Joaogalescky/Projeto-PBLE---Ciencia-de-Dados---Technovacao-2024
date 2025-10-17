@@ -16,7 +16,7 @@ As ferramentas utilizadas para o desenvolvimento deste trabalho foram a linguage
 
 Se destaca por simplificar o desenvolvimento de interfaces interativas e dashboards, sendo ideal para prototipagem rápida e compartilhamento de dados.
 
-Principais vantagens estão:
+**Principais vantagens estão:**
 
 * Criação de interfaces interativas com widgets;
 * Integração fácil com bibliotecas como Matplotlib, Seaborn e Plotly para visualização de dados;
@@ -24,22 +24,7 @@ Principais vantagens estão:
 * Ideal para machine learning, permitindo testar modelos, ajustar hiperparâmetros e visualizar previsões em tempo real;
 * Inclusão de widgets como sliders, checkboxes e seletores, facilitando a interação do usuário com dados e simulações.
 
-### Instalação
-```bash
-pip install streamlit
-```
-
-### Importação
-```bash
-import streamlit as st
-```
-
-### Inicialização
-```bash
-streamlit run pble.py
-```
-
-## Bibliotecas Python
+## Bibliotecas utilizadas
 * streamlit;
 * numpy;
 * pandas;
@@ -50,20 +35,22 @@ streamlit run pble.py
 * seaborn.
 
 ## Instruções
-Para fazer a instalação de todos as bibliotecas necessárias para o funcionamento do projeto, utilize o arquivo **Makefile** disposto no projeto ou o comando **Python**:
+Para fazer a instalação de todos as bibliotecas necessárias para o funcionamento do projeto, pode-rá utilizar o **Makefile** ou o comando **pip**:
 
 ### Comando Makefile
 ```bash
-# Será necessário ter o GNU do Make para utilização
-# Link para instalação: https://gnuwin32.sourceforge.net/packages/make.htm
 make install
 ```
 
 ### Comando Python
 ```bash
-# Será necessário ter o Python 3 para utilização
-# Link para instalação: https://www.python.org/downloads/
 pip3 install -r requirements.txt
+```
+
+### Inicialização
+Entre no diretório **src** ou em **Trab4B** e execute o seguinte comando:
+```bash
+streamlit run pble.py
 ```
 
 ## Referências
@@ -77,10 +64,12 @@ https://github.com/kelvins/municipios-brasileiros/blob/main/csv
 
 https://github.com/alanwillms/geoinfo/blob/master/latitude-longitude-cidades.csv
 
-## Autor
-João Vitor Campõe Galescky
+## Autores
+**Aluno:** João Vitor Campõe Galescky
+**Orientador:** Darlon Vasata
+**Co-orientador:** Edmar André Bellorini
 
-## Instituição
+# Instituição
 
 [![IFPR Logo](https://user-images.githubusercontent.com/126702799/234438114-4db30796-20ad-4bec-b118-246ebbe9de63.png)](https://www.ifpr.edu.br)
 
